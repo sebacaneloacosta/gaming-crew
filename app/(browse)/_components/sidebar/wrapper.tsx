@@ -3,6 +3,8 @@
 
 import { cn } from "@/lib/utils";
 import { useSidebar } from "@/store/use-sidebar";
+import { FollowingSkeleton } from "./following";
+import { RecommendedSkeleton } from "./recommended";
 
 interface WrapperProps {
     children: React.ReactNode;
